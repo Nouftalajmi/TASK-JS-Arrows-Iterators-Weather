@@ -35,7 +35,7 @@ console.log(toCelsius(temperatures));
  * - Returns an array of temperatures
  *   that exceed the threshhold
  ***************************************/
-const threshhold = [40, 60, 80, 100];
+const threshhold = 70;
 const hottestDays = function (temperatures, threshhold) {
   return temperatures.filter((eacht) => eacht > threshhold);
 };
